@@ -1,0 +1,27 @@
+{
+  "name": "RutokenSigning",
+  "version": "1.0.0",
+  "summary": "Библиотека для подписи документов токеном Рутокен",
+  "description": "Библиотека для подписи документов токеном Рутокен",
+  "homepage": "https://bitbucket.region.vtb.ru/",
+  "license": "Common Development and Distribution License",
+  "authors": {
+    "Azat Biktimirov": "abiktimirov@inno.tech"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": ""
+  },
+  "source_files": [
+    "RutokenSigning/**/*.{h,m}",
+    "RutokenSigning/**/*.swift"
+  ],
+  "vendored_frameworks": [
+    "Frameworks/rtengine.framework",
+    "Frameworks/RtPcsc.framework",
+    "Frameworks/openssl.framework",
+    "Frameworks/rtpkcs11ecp.framework"
+  ]
+}

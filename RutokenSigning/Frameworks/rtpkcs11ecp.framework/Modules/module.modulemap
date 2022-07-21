@@ -1,0 +1,4 @@
+framework module rtpkcs11ecp {
+  umbrella header "rtpkcs11ecp.h"
+  export *
+}

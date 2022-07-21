@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-TestRutokenWrapper/Pods-TestRutokenWrapper-frameworks.sh
+${PODS_ROOT}/../RutokenSigning/Frameworks/rtengine.framework
+${PODS_ROOT}/../RutokenSigning/Frameworks/RtPcsc.framework
+${PODS_ROOT}/../RutokenSigning/Frameworks/openssl.framework
+${PODS_ROOT}/../RutokenSigning/Frameworks/rtpkcs11ecp.framework
+${BUILT_PRODUCTS_DIR}/RutokenSigning/RutokenSigning.framework

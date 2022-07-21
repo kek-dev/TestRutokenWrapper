@@ -1,0 +1,16 @@
+PODS:
+  - RutokenSigning (1.0.0)
+
+DEPENDENCIES:
+  - RutokenSigning (from `RutokenSigning`)
+
+EXTERNAL SOURCES:
+  RutokenSigning:
+    :path: RutokenSigning
+
+SPEC CHECKSUMS:
+  RutokenSigning: d457236fa209ce80002e1911b57625a68d56cd08
+
+PODFILE CHECKSUM: 42089944d289e6ce9dbc956387fe39d02e06e5bb
+
+COCOAPODS: 1.11.3

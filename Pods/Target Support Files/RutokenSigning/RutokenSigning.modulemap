@@ -1,0 +1,6 @@
+framework module RutokenSigning {
+  umbrella header "RutokenSigning-umbrella.h"
+
+  export *
+  module * { export * }
+}

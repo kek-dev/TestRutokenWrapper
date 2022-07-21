@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273C98DA237B36A36FD0093AD55817A0 /* Pods-TestRutokenWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6170552C1A2D073D29848B831DDCDD8 /* Pods-TestRutokenWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D72C818CE1695B008EA74939DA6BBC /* RutokenSigning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74399F4FFA5C53B91830140B7FE2FD1 /* RutokenSigning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4787BC157C7CDBB87BF1B2479ED3DF0D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB8EDEAE762A6BD57A81569D3EA0A3 /* Test.swift */; };
+		52D9A3B077EC1897BB660F292BB39B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A1D4529B6B62E7E47AE091732230006 /* Pods-TestRutokenWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A7C5FD52C406F378DBE69B6C3DF0A /* Pods-TestRutokenWrapper-dummy.m */; };
+		709F953E9C614C15F4B71E4DCBA45617 /* RutokenSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D70FEEA8AA54216B5BF41E2E48E2DF2 /* RutokenSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93EB774CA527723CECE12758F8088385 /* RutokenSigning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108C8917A59A804B43E743BC5412208 /* RutokenSigning-dummy.m */; };
+		E8A17DAB8DE21BAC47B2C6A2E3F7D002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AE94F5EBF7628FB498A25D4A289D725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C50E3C32D31188D43341738661718CF;
+			remoteInfo = RutokenSigning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081F1A7B3CB7C8EC656FC1F357AE95AE /* RutokenSigning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RutokenSigning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27609F7BE8FADDA48D9F9C6D7BF3B4D5 /* Pods-TestRutokenWrapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestRutokenWrapper"; path = Pods_TestRutokenWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A254BEA03F698F2EA3E4E93CF647D29 /* RutokenSigning.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RutokenSigning.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DE1295BAEFE5D3702E772DF7017EFFC /* RutokenSigning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RutokenSigning.release.xcconfig; sourceTree = "<group>"; };
+		3EBD82BC403073B4AB37ADC371325212 /* Pods-TestRutokenWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestRutokenWrapper.debug.xcconfig"; sourceTree = "<group>"; };
+		480E0DC8CCF9323D2F19E762CE8EAED2 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openssl.framework; path = Frameworks/openssl.framework; sourceTree = "<group>"; };
+		5108C8917A59A804B43E743BC5412208 /* RutokenSigning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RutokenSigning-dummy.m"; sourceTree = "<group>"; };
+		6D8B322E8F32FE9E5176C363A322660A /* RtPcsc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RtPcsc.framework; path = Frameworks/RtPcsc.framework; sourceTree = "<group>"; };
+		719A7C5FD52C406F378DBE69B6C3DF0A /* Pods-TestRutokenWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestRutokenWrapper-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7402251D557242BAC89B880B7CABA64E /* RutokenSigning-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RutokenSigning-prefix.pch"; sourceTree = "<group>"; };
+		7642ECF12940CFB1B9968055358EEF73 /* rtpkcs11ecp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = rtpkcs11ecp.framework; path = Frameworks/rtpkcs11ecp.framework; sourceTree = "<group>"; };
+		76795347BD4CA8C1D989F2BDC0C73CE0 /* Pods-TestRutokenWrapper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestRutokenWrapper-frameworks.sh"; sourceTree = "<group>"; };
+		782E1A1BC041F9131FCEF467A7554E38 /* RutokenSigning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RutokenSigning.debug.xcconfig; sourceTree = "<group>"; };
+		97D5CEF7691F30A101C190AC3808AFDA /* Pods-TestRutokenWrapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestRutokenWrapper-acknowledgements.plist"; sourceTree = "<group>"; };
+		98D0AA7F730596536BAED742374C848F /* RutokenSigning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RutokenSigning.modulemap; sourceTree = "<group>"; };
+		9D70FEEA8AA54216B5BF41E2E48E2DF2 /* RutokenSigning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RutokenSigning.h; path = RutokenSigning/RutokenSigning.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0CA228B93190CD9AB27946B349C34AE /* rtengine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = rtengine.framework; path = Frameworks/rtengine.framework; sourceTree = "<group>"; };
+		B6170552C1A2D073D29848B831DDCDD8 /* Pods-TestRutokenWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestRutokenWrapper-umbrella.h"; sourceTree = "<group>"; };
+		BD22D5E2BEDFFC38E30F0E1B9463B7EE /* Pods-TestRutokenWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestRutokenWrapper.modulemap"; sourceTree = "<group>"; };
+		C74399F4FFA5C53B91830140B7FE2FD1 /* RutokenSigning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RutokenSigning-umbrella.h"; sourceTree = "<group>"; };
+		C8DDD907D47C83276756F19053A3D575 /* RutokenSigning-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RutokenSigning-Info.plist"; sourceTree = "<group>"; };
+		DAA88C9ECC18959B13C087C15C5DC324 /* Pods-TestRutokenWrapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestRutokenWrapper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCFA4AD08DCDC2E6902E4409C9F4B77E /* Pods-TestRutokenWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestRutokenWrapper-Info.plist"; sourceTree = "<group>"; };
+		E1EB8EDEAE762A6BD57A81569D3EA0A3 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = RutokenSigning/Test.swift; sourceTree = "<group>"; };
+		EECC8C93C8AD654D8A80B0495C5F40F6 /* Pods-TestRutokenWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestRutokenWrapper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13ECE420E9C6A2CDD344AD6F886041CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A17DAB8DE21BAC47B2C6A2E3F7D002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D05482590A2FCC2FED79588AEDA5E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D9A3B077EC1897BB660F292BB39B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFEC75BD660C1F42F3D4278D8E90510 /* RutokenSigning */ = {
+			isa = PBXGroup;
+			children = (
+				9D70FEEA8AA54216B5BF41E2E48E2DF2 /* RutokenSigning.h */,
+				E1EB8EDEAE762A6BD57A81569D3EA0A3 /* Test.swift */,
+				333F991ED2B1D5FA6A043AF4D4F277DE /* Frameworks */,
+				8EECAA45A234C71F1549CB4819D7DF2B /* Pod */,
+				34CEBA2D46B53B86CF5F49372676939D /* Support Files */,
+			);
+			name = RutokenSigning;
+			path = ../RutokenSigning;
+			sourceTree = "<group>";
+		};
+		333F991ED2B1D5FA6A043AF4D4F277DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480E0DC8CCF9323D2F19E762CE8EAED2 /* openssl.framework */,
+				B0CA228B93190CD9AB27946B349C34AE /* rtengine.framework */,
+				6D8B322E8F32FE9E5176C363A322660A /* RtPcsc.framework */,
+				7642ECF12940CFB1B9968055358EEF73 /* rtpkcs11ecp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34CEBA2D46B53B86CF5F49372676939D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D0AA7F730596536BAED742374C848F /* RutokenSigning.modulemap */,
+				5108C8917A59A804B43E743BC5412208 /* RutokenSigning-dummy.m */,
+				C8DDD907D47C83276756F19053A3D575 /* RutokenSigning-Info.plist */,
+				7402251D557242BAC89B880B7CABA64E /* RutokenSigning-prefix.pch */,
+				C74399F4FFA5C53B91830140B7FE2FD1 /* RutokenSigning-umbrella.h */,
+				782E1A1BC041F9131FCEF467A7554E38 /* RutokenSigning.debug.xcconfig */,
+				3DE1295BAEFE5D3702E772DF7017EFFC /* RutokenSigning.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/RutokenSigning";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		645488BDC3E6F1ED505DC9A01A70CF48 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D143779FEF9A4A66467ADE5A173011C7 /* Pods-TestRutokenWrapper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73892BECA7EF6759A51D93338E255F7A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEC75BD660C1F42F3D4278D8E90510 /* RutokenSigning */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7681AC8F55E97D4ADB5A158C0FE4721F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27609F7BE8FADDA48D9F9C6D7BF3B4D5 /* Pods-TestRutokenWrapper */,
+				081F1A7B3CB7C8EC656FC1F357AE95AE /* RutokenSigning.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EECAA45A234C71F1549CB4819D7DF2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2A254BEA03F698F2EA3E4E93CF647D29 /* RutokenSigning.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				73892BECA7EF6759A51D93338E255F7A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7681AC8F55E97D4ADB5A158C0FE4721F /* Products */,
+				645488BDC3E6F1ED505DC9A01A70CF48 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D143779FEF9A4A66467ADE5A173011C7 /* Pods-TestRutokenWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BD22D5E2BEDFFC38E30F0E1B9463B7EE /* Pods-TestRutokenWrapper.modulemap */,
+				DAA88C9ECC18959B13C087C15C5DC324 /* Pods-TestRutokenWrapper-acknowledgements.markdown */,
+				97D5CEF7691F30A101C190AC3808AFDA /* Pods-TestRutokenWrapper-acknowledgements.plist */,
+				719A7C5FD52C406F378DBE69B6C3DF0A /* Pods-TestRutokenWrapper-dummy.m */,
+				76795347BD4CA8C1D989F2BDC0C73CE0 /* Pods-TestRutokenWrapper-frameworks.sh */,
+				DCFA4AD08DCDC2E6902E4409C9F4B77E /* Pods-TestRutokenWrapper-Info.plist */,
+				B6170552C1A2D073D29848B831DDCDD8 /* Pods-TestRutokenWrapper-umbrella.h */,
+				3EBD82BC403073B4AB37ADC371325212 /* Pods-TestRutokenWrapper.debug.xcconfig */,
+				EECC8C93C8AD654D8A80B0495C5F40F6 /* Pods-TestRutokenWrapper.release.xcconfig */,
+			);
+			name = "Pods-TestRutokenWrapper";
+			path = "Target Support Files/Pods-TestRutokenWrapper";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AE046E429D1A4AFE88EC86768529A18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273C98DA237B36A36FD0093AD55817A0 /* Pods-TestRutokenWrapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6F15563C8B0FF1A51BB108CC99803F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709F953E9C614C15F4B71E4DCBA45617 /* RutokenSigning.h in Headers */,
+				43D72C818CE1695B008EA74939DA6BBC /* RutokenSigning-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C50E3C32D31188D43341738661718CF /* RutokenSigning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8186412052C129606724FBED78525D6F /* Build configuration list for PBXNativeTarget "RutokenSigning" */;
+			buildPhases = (
+				FD6F15563C8B0FF1A51BB108CC99803F /* Headers */,
+				18DD33C4CF6935C4EE2417ED01088DC3 /* Sources */,
+				13ECE420E9C6A2CDD344AD6F886041CB /* Frameworks */,
+				8BDD859A294B8AD2A65B416F1A33BA76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RutokenSigning;
+			productName = RutokenSigning;
+			productReference = 081F1A7B3CB7C8EC656FC1F357AE95AE /* RutokenSigning.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		765C37D067FA805891725DFCA3267940 /* Pods-TestRutokenWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173C8E57CCA2EA3622867F108CC5F05C /* Build configuration list for PBXNativeTarget "Pods-TestRutokenWrapper" */;
+			buildPhases = (
+				0AE046E429D1A4AFE88EC86768529A18 /* Headers */,
+				0A4C2FB83352E8FE3A9414DB1D3CF335 /* Sources */,
+				9D05482590A2FCC2FED79588AEDA5E8C /* Frameworks */,
+				EE388C0474DC5820F64FDD1987FBD7CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6F8A45C5025A850F207554C3E3D2CA /* PBXTargetDependency */,
+			);
+			name = "Pods-TestRutokenWrapper";
+			productName = Pods_TestRutokenWrapper;
+			productReference = 27609F7BE8FADDA48D9F9C6D7BF3B4D5 /* Pods-TestRutokenWrapper */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7681AC8F55E97D4ADB5A158C0FE4721F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765C37D067FA805891725DFCA3267940 /* Pods-TestRutokenWrapper */,
+				2C50E3C32D31188D43341738661718CF /* RutokenSigning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDD859A294B8AD2A65B416F1A33BA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE388C0474DC5820F64FDD1987FBD7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4C2FB83352E8FE3A9414DB1D3CF335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1D4529B6B62E7E47AE091732230006 /* Pods-TestRutokenWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DD33C4CF6935C4EE2417ED01088DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EB774CA527723CECE12758F8088385 /* RutokenSigning-dummy.m in Sources */,
+				4787BC157C7CDBB87BF1B2479ED3DF0D /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6F8A45C5025A850F207554C3E3D2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RutokenSigning;
+			target = 2C50E3C32D31188D43341738661718CF /* RutokenSigning */;
+			targetProxy = 0AE94F5EBF7628FB498A25D4A289D725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18996809900848FD2B5C257060B786FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBD82BC403073B4AB37ADC371325212 /* Pods-TestRutokenWrapper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestRutokenWrapper/Pods-TestRutokenWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestRutokenWrapper/Pods-TestRutokenWrapper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2ADEFC31154E822005A8E394AB78C7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE1295BAEFE5D3702E772DF7017EFFC /* RutokenSigning.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RutokenSigning/RutokenSigning-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RutokenSigning/RutokenSigning-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RutokenSigning/RutokenSigning.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_MODULE_NAME = RutokenSigning;
+				PRODUCT_NAME = RutokenSigning;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF9ED675DF88CFB52257D0F2B2E4EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782E1A1BC041F9131FCEF467A7554E38 /* RutokenSigning.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RutokenSigning/RutokenSigning-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RutokenSigning/RutokenSigning-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RutokenSigning/RutokenSigning.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_MODULE_NAME = RutokenSigning;
+				PRODUCT_NAME = RutokenSigning;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E63E7FE59517D4F20D2E7274D5636F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECC8C93C8AD654D8A80B0495C5F40F6 /* Pods-TestRutokenWrapper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestRutokenWrapper/Pods-TestRutokenWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestRutokenWrapper/Pods-TestRutokenWrapper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173C8E57CCA2EA3622867F108CC5F05C /* Build configuration list for PBXNativeTarget "Pods-TestRutokenWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18996809900848FD2B5C257060B786FE /* Debug */,
+				E63E7FE59517D4F20D2E7274D5636F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8186412052C129606724FBED78525D6F /* Build configuration list for PBXNativeTarget "RutokenSigning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9ED675DF88CFB52257D0F2B2E4EDC5 /* Debug */,
+				2ADEFC31154E822005A8E394AB78C7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
